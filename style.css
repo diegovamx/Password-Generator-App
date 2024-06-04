@@ -1,0 +1,103 @@
+/* Import Material UI styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+    --primary-color: #000000; /* black */
+    --secondary-color: #00FF00; /* green */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1C2939;
+
+}
+
+.paragraph {
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #0ae297;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+h2 {
+    color: white;
+    font-size: 1.5rem;
+
+}
+h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+#generate {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    box-shadow: #000000 0px 0px 5px;
+    background-color: #05da90;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid white;
+}
+
+#passwords {
+    max-width: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#passwords button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid #18ff8f;
+    background-color: #1C2939;
+    color: white;
+    font-size: 1rem;
+}
+
+li {
+    color: white;
+    font-size: 1rem;
+}
+.passwordEntry {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid #18ff8f;
+    background-color: #1C2939;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
