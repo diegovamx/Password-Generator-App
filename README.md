@@ -1,4 +1,4 @@
-# Password Generator 💸
+# Password Generator 🔐
 > Never use an insecure password again with this simple password generator.
 ![](header.png)
 ## How To Use
